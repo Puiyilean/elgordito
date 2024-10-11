@@ -1,0 +1,58 @@
+
+
+.mapa{
+    float: left;
+margin: 50px;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+   align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+.nav{
+    background: #30336b;
+}
+
+.navbar .nav-item .nav-link {
+  color: #fff;
+}
+
+.main-header {
+  position: relative;
+  background: url(../img/background.jpg);
+  background-size: cover;
+  min-height 700px;
+}
+
+.background-overlay {
+    background:	#87CEEB;
+  background-attachment:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.form-control, .btn{
+  border-radius: 0;
+
+}
+
+.team, footer {
+  background: #30336b;
+}
+.col-lg-3{left: 13%;
+    
+}

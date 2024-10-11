@@ -1,0 +1,288 @@
+
+
+*{
+    font-family:;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    text-align: justify-all;
+}
+body {
+  
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    
+}
+
+main {
+    padding: 2rem;
+}
+
+.entrada { align-content: center;
+    margin-bottom: 2rem;
+text-align: justify-all;
+    font-size: 120%;
+    
+    
+}
+
+
+
+
+
+
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+    padding:30px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:black;
+    font-size: 15px;
+    line-height: 1;
+    text-align: justify-all;
+}
+
+
+
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+
+        width: 100%;
+    height: 100%;
+    
+    
+}
+.container .Box-container .box:hover {
+       box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+        width: 100%;
+    height: 100%;
+}
+.titulo{position:relative;
+
+    top: -55%;
+    left:s0%;
+    
+    
+        
+}
+
+ .box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+     border-radius: 3%;
+     padding: 3%;
+     margin: 3%;
+    }
+
+  
+   
+     figure{
+       position:relative;
+        height: 90%;
+        cursor: pointer;
+        width: 80%;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+        
+    }
+    figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+        will-change: transform;
+    }
+     figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:100%,rgba(255, 21, 142, 0.57);
+text-align: justify-all;
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+     figure:hover > .capa {
+        opacity: 5;
+        visibility: visible;
+    }
+    figure:hover > .capa h3{
+        margin-top: 70px;
+        margin-bottom: 15px;
+        
+    }
+    figure:hover > img{
+        transform: scale(1.3);
+    }
+   figure .capa h3{
+        color: white;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 400ms ease-out;
+         margin-top: 30px;
+       text-align: justify-all;
+    }
+     figure .capa p{
+        color: white;
+        font-size: 15px;
+        line-height: 1;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+         text-align: justify-all;
+    }
+
+
+    
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
+.cartas{
+align-items: center;
+    justify-content: center;
+    align-content: center;
+   display: flex;
+}
+.card{
+    float: left;
+    padding: 15px;
+    margin: 15px;
+       align-content: center;
+    align-items: center;
+    justify-items: center;
+
+    text-align: justify-all;
+    
+    
+}
+.card:hover{
+         box-shadow: 8px 8px 8px 8px;
+    background-color: gray;
+    transform: scale(1);
+}
+.card-text{
+    text-align: justify-all;
+    font-family: ;
+}
+    
+.fotos{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 10px;
+    
+}
+.foto img{
+    width: 100%;
+    
+}
+.foto{
+    flex: 25%;
+    padding: 5px;
+    
+    
+}
+       
+.foto img {
+    margin-top: 10px;
+    border: 5px black;
+}
+
+
+.navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+.nav{
+    background: #30336b;
+}
+
+.navbar .nav-item .nav-link {
+  color: #fff;
+}
+
+.main-header {
+  position: relative;
+  background: url(../img/background.jpg);
+  background-size: cover;
+  min-height 100px;
+}
+
+
+.form-control, .btn{
+  border-radius: 0;
+
+}
+
+.team, footer {
+  background: #30336b;
+}
+.col-lg-3{left: 13%;
+    
+}
+.imagen {
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.imagen:hover {
+    opacity: 0.7;
+}
+
+
+.sublima:hover{
+    box-shadow: 8px 8px 8px 8px;
+    background-color: gray;
+    transform: scale(1);
+}
